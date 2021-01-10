@@ -1,16 +1,18 @@
 # ---------------------------------------------------------------------------------------------------
-# version  1.5
+# version  1.6
 # Library: https://github.com/Frankie116/my-library.git
 # Creates an ecs cluster, task definition & service
 # ---------------------------------------------------------------------------------------------------
 
 # req:
+# 9b-random-string.tf  - random_string.my-random-string.result
 # 12b-ecs-td.tf        - aws_ecs_task_definition.my-ecs-td.arn
 # 04b-sg.tf            - aws_security_group.my-ecs-sg.id
 # 01a-vpc.tf           - module.my-vpc.private_subnets
 # 05a-lb-alb.tf        - aws_lb_target_group.my-lb-tg.id
 # 05b-lb-listeners     - aws_lb_listener.my-lb-listener-http
 # 08a-iam-roles.tf     - aws_iam_role_policy_attachment.my-iampa-ecs-task-exec
+# variables.tf         - var.my-application
 # variables.tf         - var.my-desired-container-count
 # variables.tf         - var.my-docker-port
 

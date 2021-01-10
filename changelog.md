@@ -62,4 +62,15 @@ sg restored to allow only my-docker-port into lb and into ecs-sg
 removed my-docker-image variable from ouputs.tf & variables.tf and replaced with my-ecs-cd-template variable instead.
 
 Changelog-013
-Used TF06 template to create the first release of APP01-mongodb
+Used TF06 template to create the first release of APP02-jenkins
+
+Changlelog-014
+refactored the following:
+        renamed:    12a-ecs-service.tf -> 03a-ecs-service.tf
+        renamed:    12b-ecs-td.tf -> 03b-ecs-td.tf
+        modified:   05c-lb-tg.tf
+        modified:   09c-template-file.tf
+        modified:   10a-cw-logs.tf
+        modified:   11a-auto_scaling.tf
+        modified:   outputs.tf
+        modified:   variables.tf

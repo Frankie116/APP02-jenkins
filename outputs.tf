@@ -4,6 +4,10 @@
 # outputs
 # ---------------------------------------------------------------------------------------------------
 
+# req:
+# variables.tf   - var.my-docker-port
+# variables.tf   - var.my-ecs-cd-file 
+
 
 
 # # 05a-lb-alb.tf ----------------------------------------------------------
@@ -15,7 +19,7 @@ output my-website-address {
 
 
 # 09c-template-file ----------------------------------------------------------
-output my-ecs-cd-template {
+output my-ecs-cd-file {
   description          = "Name of the container definition"
   value                = var.my-ecs-cd-file 
 }

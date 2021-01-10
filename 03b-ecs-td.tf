@@ -1,10 +1,11 @@
 # ---------------------------------------------------------------------------------------------------
-# version  1.5
+# version  1.6
 # Library: https://github.com/Frankie116/my-library.git
 # Creates an ecs cluster, task definition & service
 # ---------------------------------------------------------------------------------------------------
 
 # req:
+# 9b-random-string.tf  - random_string.my-random-string.result
 # 08a-iam-roles        - aws_iam_role.my-iamrole-ecs-task-exec.arn
 # 09c-template-file.tf - data.template_file.my-script.rendered
 # 08a-iam-roles.tf     - aws_iam_role_policy_attachment.my-iampa-ecs-task-exec

@@ -1,10 +1,11 @@
 # ---------------------------------------------------------------------------------------------------
-# version  1.5
+# version  1.6
 # Library: https://github.com/Frankie116/my-library.git
 # Creates auto-scaling policies 
 # ---------------------------------------------------------------------------------------------------
 
 # req:
+# 9b-random-string.tf  - random_string.my-random-string.result
 # 12a-ecs.tf           - aws_ecs_cluster.my-ecs-cluster.name
 # 12a-ecs.tf           - aws_ecs_service.my-ecs-service.name
 

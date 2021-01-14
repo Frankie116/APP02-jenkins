@@ -40,3 +40,6 @@ resource "aws_ecs_service" "my-ecs-service" {
   }
   depends_on                         = [aws_lb_listener.my-lb-listener-http, aws_iam_role_policy_attachment.my-iampa-ecs-task-exec]
 }
+
+
+

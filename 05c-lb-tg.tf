@@ -16,7 +16,7 @@
 
 
 resource "aws_lb_target_group" "my-lb-tg" {
-  name                  = "my-lb-tg"
+  name                  = "my-lb-tg-${random_string.my-random-string.result}"
   vpc_id                = module.my-vpc.vpc_id
   protocol              = "HTTP"
   port                  = var.my-docker-port

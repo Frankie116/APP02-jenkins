@@ -74,3 +74,21 @@ refactored the following:
         modified:   11a-auto_scaling.tf
         modified:   outputs.tf
         modified:   variables.tf
+
+
+Changlelog-015
+    modified:   03a-ecs-service.tf
+        deleted:    04b-sg.tf
+        deleted:    04c-sg-rules.tf
+        modified:   05a-lb-alb.tf
+        modified:   05c-lb-tg.tf
+        modified:   07a-s3-bucket.tf
+        deleted:    10b-cw-alarms..tf
+        modified:   NETWORK DIAGRAM-APP02.jpg
+
+    Untracked files:
+        04c-sg-lb.tf
+        04d-sg-rules-lb.tf
+        04e-sg-ecs.tf
+        04f-sg-rules-ecs.tf
+        10b-cw-alarms.tf
